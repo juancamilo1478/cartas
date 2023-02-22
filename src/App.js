@@ -1,8 +1,11 @@
-
-
+import { Routes,Route  } from 'react-router-dom'
+import  Portada from "./components/portadas/Portada"
 function App() {
   return (<div>
-hola mundo
+    <Routes>
+      <Route path='/' element={<Portada/>} />
+    </Routes>
+
   </div>
   )
 }
