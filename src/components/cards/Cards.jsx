@@ -1,10 +1,19 @@
 //component card ,show the cards
 import Card from "./Card";
 import fotos from "../../img/portada.jpg";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { useEffect } from "react";
+import { allcards } from "../../redux/actions/actions";
 //accion todas las cartas
 export default function Cards() {
   const cartass = useSelector((state) => state.allcards);
+  const dispatch = useDispatch();
+  useEffect(() => {
+    console.log(cartass);
+    if (!cartass) {
+      dispatch(allcards());
+    }
+  });
 
   return (
     <div className="cards_todo">

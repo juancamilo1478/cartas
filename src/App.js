@@ -8,11 +8,18 @@ import Detail from './components/cards/Detail'
 function App() {
   const lugar=useLocation()
 
+
+
+  
+
+
+
+
   if(lugar.pathname==='/' ){
     return(<Routes>
       <Route path='/' element={<Portada/>} />
       <Route path='/cartas' element={<Cartas/>}/>
-       <Route path='/detail/:detailId'  element={<Detail/>}/>
+     
     </Routes>)
   }else{return(<div>
     <SearchBar/>

@@ -25,8 +25,9 @@
     box-shadow: 2px 2px 8px rgba(8, 255, 8, 0.986);
 }
 .contenedorbotton{
-    margin-top: 10px;
+
     width: 100%;
+
 }
 .boton1{
     width: 80%;
@@ -36,7 +37,7 @@
     border-radius: 50px;
     box-shadow:5px 5px 5px rgb(5, 5, 5);
     transition: 1s;
-    margin: auto;
+    margin:10px auto ;
 }
 
 .boton2{
@@ -47,7 +48,7 @@
         border-radius: 50px;
         box-shadow: 5px 5px 5px rgb(5, 5, 5);
         transition: 1s;
-        margin: auto;
+    margin: 10px auto;
 }
 .boton3{
     width: 80%;
@@ -57,7 +58,7 @@
         border-radius: 50px;
         box-shadow: 5px 5px 5px rgb(5, 5, 5);
         transition: 1s;
-        margin: auto;
+    margin: auto;
 }
 
 .lin{

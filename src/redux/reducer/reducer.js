@@ -3,7 +3,7 @@ import { ALL_CARDS,ADD_FAVORITE, DELETE_FAVORITE,DELETE_CARD ,LINCK,FILTERS} fro
 
 const initialState  ={
     drive:[],
-    allcards:[],
+    allcards:null,
     savefilter:[],
     favorite:[],
     detail:{},

@@ -11,10 +11,18 @@
     .cards_container {
             min-width: 550px;
                 width: 85%;
-                margin: 0 auto;
+                margin: 0px auto;
                 display: flex;
                 flex-wrap: wrap;
                 gap: 60px;
+            div{
+                margin-top: 20px;
+
+            }
+
+
+
+
         }
                 @media screen and (max-width: 870px) {
                     .cards_container {
@@ -23,7 +31,7 @@
                     }
                 }
         
-                @media screen and (max-width: 600px) {
+                @media screen and (max-width: 650px) {
                     .cards_container {
                         flex-direction: column;
                         width: 40%;
