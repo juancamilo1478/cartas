@@ -1,0 +1,71 @@
+.contenido{
+    background: rgb(17, 17, 17);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 100px;
+    width: 100%;
+    color: white;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 30% ;
+}
+.nextc{
+    margin: 40px auto;
+}
+.filtro{
+display: flex;
+color: greenyellow;
+}
+.filterselect{
+    height: 50%;
+    margin: 50px auto; 
+    background: greenyellow;
+
+}
+.home{
+    margin: auto;
+    color: greenyellow;
+    transition: 1s;
+}
+.home:hover{
+    color: aquamarine;
+}
+
+
+.namefilter{
+    position: relative;
+    margin: 50px auto;
+}
+.lin {
+    text-decoration: none;
+    color: greenyellow;
+    transition: 1s;
+    
+}
+.lin:hover{
+    color:red;
+}
+.buttonleft{
+    background: greenyellow ;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border: transparent;
+    margin-right: 5px;
+    transition: 1s;
+
+}
+.buttonleft:hover{
+    cursor: pointer;
+    background: red;
+}
+.buttonright{
+    background: greenyellow;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border: transparent;
+    transition: 1s;
+}
+.buttonright:hover{
+    cursor: pointer;
+    background: red;
+}
