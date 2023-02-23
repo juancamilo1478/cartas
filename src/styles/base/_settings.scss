@@ -1,0 +1,36 @@
+
+$main: rgb(28, 128, 73);
+$color2: rgb(221, 90, 25);
+
+@mixin botton1($fondo:rgb(17, 240, 248)){
+  
+    background: $fondo;
+    text-align: center;
+    padding: 12px;
+    box-shadow: 5px 5px 5px black;
+    width: 120px;
+    border-radius: 20px;
+    color: white;
+
+}
+@mixin stard($time:1s, $escala:1 ){
+    animation-name: estard;
+    animation-duration: $time;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    @keyframes estard {
+            0% {
+                opacity: 1;
+                transform: scale($escala);
+                filter: blur(0.1rem);
+    
+            }
+    
+            100% {
+                opacity: 1;
+                transform: scale(0.2);
+                filter: blur(0.1rem);
+            }
+        }
+
+}

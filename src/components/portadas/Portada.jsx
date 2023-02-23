@@ -1,4 +1,3 @@
-import estilo from "./Portada.module.css";
 import foto from "../../img/portada.jpg";
 import { Link } from "react-router-dom";
 import volar from "../../img/animation.png";
@@ -13,28 +12,25 @@ function Portada() {
   });
 
   return (
-    <div className={estilo.total}>
-      <img src={foto} alt="foto" className={estilo.foto} />
-      <div className={estilo.contenido}>
-        <div className={estilo.letras}>
-          <h1>¡WUBBA LUBBA DUB DUB!</h1>
-          <h3>
-            ¿Dinosaurios? ¿Más clones? ¿Naves espaciales? ¿Drama familiar? Nadie
-            sabe qué deparará a Rick and Morty
-          </h3>
-        </div>
-
-        <div className={estilo.botton}>
-          <Link to="/cartas" className={estilo.lin}>
-            <div className={estilo.color}>
-              <p>Explorar Personajes</p>
-            </div>
+    <div className="portada_all">
+      <img src={foto} alt="foto" className="portada_image" />
+      <div className="portada_container">
+        <h1>¡WUBBA LUBBA DUB DUB!</h1>
+        <h3>
+          ¿Dinosaurios? ¿Más clones? ¿Naves espaciales? ¿Drama familiar? Nadie
+          sabe qué deparará a Rick and Morty
+        </h3>
+        <div className="portada_botton">
+          <Link to="/cartas" className="portda_link">
+            <p>Personajes</p>
           </Link>
         </div>
-        <div className={estilo.animation}>
-          <div className={estilo.circulo}></div>
-          <img src={volar} alt="volar" />
-        </div>
+      </div>
+      <div className="portada_stard"></div>
+      <div className="portada_stard2"></div>
+
+      <div className="portada_rick">
+        <img src={volar} alt="volar" />
       </div>
     </div>
   );
