@@ -1,0 +1,21 @@
+.card_todo {
+    animation-name: ingresar;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    padding: 20px;
+    border: transparent;
+    width: 180px;
+    border-radius: 30px;
+    box-shadow: 1px 10px 10px 12px black;
+    transition: 0.5s;
+    font-size: 0.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(248, 247, 247, 0.226);
+
+    
+
+
+
+}

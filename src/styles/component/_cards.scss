@@ -1,0 +1,22 @@
+
+.cards_todo{
+    width: 100%;
+    height: 100%;
+    background: red;
+    .cards_foto {
+        width: 100%;
+        height: 100%;
+           position: fixed;
+    
+        }
+    .cards_container {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            z-index: 24;
+        }
+
+
+
+}
+
